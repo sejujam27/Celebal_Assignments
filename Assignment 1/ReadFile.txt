@@ -1,0 +1,38 @@
+PS E:\VS CODE\Node.Js> node -v
+PS E:\VS CODE\Node.Js> npm -v
+10.7.0
+PS E:\VS CODE\Node.Js> mkdir hello-world-node
+
+
+    Directory: E:\VS CODE\Node.Js
+
+
+Mode                 LastWriteTime         Length Name    
+----                 -------------         ------ ----    
+d-----        06-06-2024     20:58                hello-world-node
+
+
+PS E:\VS CODE\Node.Js> cd hello-world-node
+PS E:\VS CODE\Node.Js\hello-world-node> npm init -y       
+Wrote to E:\VS CODE\Node.Js\hello-world-node\package.json:
+
+
+{
+  "name": "hello-world-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sejal Jambhulkar",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+
+
+PS E:\VS CODE\Node.Js\hello-world-node> node app.js
+Server running at http://127.0.0.1:3000/
