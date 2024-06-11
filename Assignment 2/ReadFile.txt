@@ -1,0 +1,30 @@
+PS E:\VS CODE\Node.Js> cd Task_2
+PS E:\VS CODE\Node.Js\Task_2> npm init -y
+Wrote to E:\VS CODE\Node.Js\Task_2\package.json:
+
+{
+  "name": "task_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sejal Jambhulkar",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+PS E:\VS CODE\Node.Js\Task_2> node app.js
+Server running at http://127.0.0.1:3000/
+
+
+PS E:\VS CODE\Node.Js\Task_2> Invoke-RestMethod -Uri http://127.0.0.1:3000/filename.txt -Method Post -Body "Hello My Name is Sejal!!!!"
+File created
+PS E:\VS CODE\Node.Js\Task_2> Invoke-RestMethod -Uri http://127.0.0.1:3000/filename.txt -Method Get
+Hello My Name is Sejal!!!!
+PS E:\VS CODE\Node.Js\Task_2> Invoke-RestMethod -Uri http://127.0.0.1:3000/filename.txt -Method Delete
+File deleted
+PS E:\VS CODE\Node.Js\Task_2>
