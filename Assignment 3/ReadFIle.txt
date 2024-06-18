@@ -1,0 +1,8 @@
+PS E:\VS CODE\Node.Js> cd Task_3
+PS E:\VS CODE\Node.Js\Task_3> node function_code.js
+Product ID: 101
+Product Name: ASUS_Laptop
+Price: 45000
+Discounted Price: 40500
+Product data displayed successfully.
+PS E:\VS CODE\Node.Js\Task_3>
