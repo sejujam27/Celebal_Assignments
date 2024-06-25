@@ -14,6 +14,7 @@
    - Purpose: Simulates an asynchronous function to display order data.
 
 ### Async/Await Function (refactored_code.js)
+#### We can run the code in terminal using 'node refactored_code.js'
 4. fetchProcessAndDisplayOrderData()
    - Purpose: An async function that orchestrates the fetching, processing, and displaying of order data.
 5. Calling the async function
