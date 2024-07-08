@@ -2,7 +2,7 @@
 
 ## Develop a simple application to Create, Read, Update, and Delete (CRUD) entries in a MongoDB database using Mongoose.
 
-### I've used the POSTMAN for performing the CRUD Operations.
+### I've used the POSTMAN & Mongoose for performing the CRUD Operations.
 #### 1) Create a New Entry
 * Method: POST
 #### 2) Read All Entries
