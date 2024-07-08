@@ -7,7 +7,7 @@
 ### Create folder then Write down the commands in the terminal
 * npm init -y
 * npm install express
-* npm install -g nodemon
+* npm install -g nodemon  (optional but recommended)
 ### In your project folder, create a new file named index.js.
 * nodemon index.js or
 * node index.js
